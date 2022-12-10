@@ -1,0 +1,117 @@
+
+html h1 {
+  text-align: center;
+}
+html h2 {
+  text-align: center;
+  color: grey;
+}
+#exampleSlider {
+  position: relative;
+}
+@media (max-width: 767px) {
+  #exampleSlider {
+    border-color: transparent;
+  }
+}
+#exampleSlider .MS-content {
+  /*margin: 15px 7% 15px 7%;*/
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-content {
+    margin: 0;
+  }
+}
+#exampleSlider .MS-content .item img{
+  height: 200px;
+}
+#exampleSlider .MS-content .item {
+  display: inline-block;
+  height: auto;
+  overflow: hidden;
+  vertical-align: top;
+  border-right: none;
+  width: 30%;
+  margin:2% 3% 2% 2%;
+}
+#exampleSlider .MS-content .item:first-child{
+  margin-left: 0;
+}
+#exampleSlider .MS-content .item:last-child{
+  margin-right: 0;
+}
+@media (max-width: 1200px) {
+  #exampleSlider .MS-content .item {
+    width: 50%;
+  }
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-content .item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-content .item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  #exampleSlider .MS-content .item {
+    width: 48%;
+  }
+  #exampleSlider .MS-content .item:nth-child(2){
+    margin-left: 1%;
+    margin-right: 0;
+  }
+  #exampleSlider .MS-controls .MS-left {
+    left: -1% !important;
+  }
+  #exampleSlider .MS-controls .MS-right {
+    right: -1% !important;
+  }
+}
+@media (max-width: 500px) {
+  #exampleSlider .MS-content .item {
+    width: 100%;
+  }
+}
+#exampleSlider .MS-content .item p {
+  
+}
+#exampleSlider .MS-controls button {
+  position: absolute;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  outline: 0;
+  top: 45%;
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-controls button {
+    display: none;
+  }
+}
+#exampleSlider .MS-controls button:hover {
+  cursor: pointer;
+}
+#exampleSlider .MS-controls .MS-left {
+  left: -8%;
+}
+/*@media (max-width: 992px) {
+  #exampleSlider .MS-controls .MS-left {
+    left: -2px;
+  }
+}*/
+#exampleSlider .MS-controls .MS-right {
+  right: -8%;
+}
+/*@media (max-width: 992px) {
+  #exampleSlider .MS-controls .MS-right {
+    right: -2px;
+  }*/
+}

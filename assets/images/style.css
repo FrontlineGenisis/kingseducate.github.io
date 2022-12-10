@@ -1,0 +1,252 @@
+	@font-face{
+		font-family:SourceSansPro-Bold;
+		src:url('../../assets/font/SourceSansPro-Bold.ttf');
+	}
+	@font-face{
+		font-family:SourceSansPro-Regular;
+		src:url('../../assets/font/SourceSansPro-Regular.ttf');
+	}
+	@font-face{
+		font-family:LinLibertine_R;
+		src:url('../../assets/font/LinLibertine_R.ttf');
+	}
+	
+		.bottom-left {
+			position: absolute;
+			bottom:16%;
+			left: 9%;
+			color:white;
+		}
+		.banner_text{
+			font-size: 60px;
+			font-family: LinLibertine_R;
+			color:white !important;
+		}
+		.banner_subtext{
+			font-size: 30px;
+			font-family: LinLibertine_R;
+			color:white !important;
+		}
+		.heading-KEC{
+			font-family: LinLibertine_R;
+			font-size: 28px;
+			color:#213055;
+		}
+		.heading-KEC-mobile{
+			font-family: LinLibertine_R;
+			font-size: 26px;
+			color:#213055;	
+		}
+		.text-KEC{
+			font-family: LinLibertine_R;
+			font-size: 18px;
+			color:#ffffff;	
+		}
+		.text-black-KEC{
+			font-family: LinLibertine_R;
+			font-size: 18px;
+			color:#222222;	
+		}
+		.text-blue-KEC{
+			font-family: LinLibertine_R;
+			font-size: 18px;
+			color:#213055;
+			font-weight: bold;	
+		}
+		.place-sec{
+			padding:3% 20% 3% 20%;
+			text-align:center;
+		}
+		.back-bg{
+			background-color: #ebebeb;
+		}
+		.footer-head{
+			font-family:SourceSansPro-Regular;
+			font-size: 13px;
+			font-color:#213055;
+		}
+		.footer-menu{
+			font-family: LinLibertine_R;
+			font-size: 16px;
+			color:#213055;
+			font-weight: bold;	
+		}
+		.mobile-head{
+			color:#ffffff;
+			margin-top: 15%;
+			font-size: 36px;
+			font-family: LinLibertine_R;
+		}
+		.card-button-menu{
+		background-color: white;
+		color:black;
+		padding: 2%;
+		border: 1px solid lightgray;
+
+		font-size: 15px;
+		width: 100%;
+		cursor: pointer;	
+	}
+
+	.card-text-black{
+		font-size: 18px;
+		font-family:LinLibertine_R;
+		color:#000;
+	}
+	.card-text-blue{
+		font-size: 18px;
+		font-family:LinLibertine_R;
+		color:#213055;
+	}
+
+	.card-button-type2{
+		background-color: lightgray;
+		color:black;
+		padding: 4%;
+		font-size: 15px;
+		width: 100%;
+		cursor: pointer;	
+	}
+
+	.card-button{
+		background-color: #223055;
+		color:white;
+		padding: 5%;
+		font-size: 15px;
+		width: 100%;
+		cursor: pointer;	
+	}
+
+		@media only screen and (max-width: 1700px) {
+			.banner_text{
+			font-size: 40px;
+			font-family: LinLibertine_R;
+			color:white !important;
+			}
+			.banner_subtext{
+			font-size: 23px;
+			font-family: LinLibertine_R;
+			color:white !important;
+		}
+		}
+		@media only screen and (max-width: 1200px) {
+			.banner_text{
+			font-size: 30px;
+			font-family: LinLibertine_R;
+			color:white !important;
+			}
+			.banner_subtext{
+			font-size: 20px;
+			font-family: LinLibertine_R;
+			color:white !important;
+		}
+		}
+		@media only screen and (max-width: 1076px) {
+			.banner_text{
+			font-size: 30px;
+			font-family: LinLibertine_R;
+			color:white !important;
+			}
+			.banner_subtext{
+			font-size: 18px;
+			font-family: LinLibertine_R;
+			color:white !important;
+		}
+		}
+		
+		@media only screen and (max-width: 950px) {
+				.banner_text{
+				font-size: 28px;
+				font-family: LinLibertine_R;
+				color:white !important;
+			}
+			.banner_subtext{
+				font-size: 18px;
+				font-family: LinLibertine_R;
+				color:white !important;
+			}
+			.heading-KEC{
+				font-family: LinLibertine_R;
+				font-size: 30px;
+				color:#213055;
+			}
+			.place-sec{
+				padding:3% 10% 3% 10%;
+				
+			}
+			/*.bg-cse{
+				background: url("../assets/images/bnr_cs.jpg") no-repeat;
+				background-size: 100% 100%;
+				padding: 4% 9% 3% 8%;
+			}*/
+			/*.bg-ece{
+				background: url("../assets/images/bnr_ece.jpg") no-repeat;
+				background-size: 100% 100%;
+				padding: 14% 9% 0% 8%;
+			}*/
+		/*	.bg-it{
+				background: url("../assets/images/bnr_IT.jpg") no-repeat;
+				background-size: 100% 100%;
+				padding: 8% 9% 3% 8%;
+			}
+			.bg-mech{
+		background: url("../assets/images/bnr_mech.jpg") no-repeat;
+		background-size: 100% 100%;
+		padding: 8% 9% 3% 8%;
+	}*/
+		}
+		
+				@media only screen and (max-width: 579px) {
+					.mobile-head{
+			color:#ffffff;
+			margin-top: 15%;
+			font-size: 26px;
+			font-family: LinLibertine_R;
+		}
+			.banner_text{
+				font-size: 30px;
+				font-family: LinLibertine_R;
+				color:white !important;
+			}
+			.heading-KEC{
+				font-family: LinLibertine_R;
+				font-size: 26px;
+				color:#213055;
+			}
+			.place-sec{
+				padding:3% 5% 3% 5%;
+				
+			}
+			/*.bg-cse{
+				background: url("../assets/images/bnr_cs.jpg") no-repeat;
+				background-size: 100% 100%;
+				padding: 4% 9% 3% 8%;
+			}*/
+			/*.bg-ece{
+				background: url("../assets/images/bnr_ece.jpg") no-repeat;
+				background-size: 100% 100%;
+				padding: 14% 9% 0% 8%;
+			}*/
+		/*	.bg-it{
+				background: url("../assets/images/bnr_IT.jpg") no-repeat;
+				background-size: 100% 100%;
+				padding: 8% 9% 3% 8%;
+			}
+			.bg-mech{
+		background: url("../assets/images/bnr_mech.jpg") no-repeat;
+		background-size: 100% 100%;
+		padding: 8% 9% 3% 8%;
+	}*/
+	.card-button{
+		background-color: #223055;
+		color:white;
+		padding: 3%;
+		margin-left:4%;
+		font-size: 15px;
+		width: 100%;
+		cursor: pointer;	
+	}
+		}
+		
+		
+	}
